@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    background-image: linear-gradient(rgb(249, 221, 131), rgb(147, 116, 250));
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #1B244A;
+    border-radius: 50px;
+    margin: 0;
+    width: 575px;
+    height: 375px;
+    margin: 150px auto;
+    padding: 25px;
+    box-shadow: 0px 10px 25px rgb(29, 19, 58);
+    border: 5px solid white;
+}
+
+.titles-container {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score-board {
+    background-color: #080001;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    font-size: 80px;
+    color: #F94F6D;
+    border: 2px white solid;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn-main {
+    margin: 20px auto;
+}
+
+button {
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #1B244A;
+    padding: 15px;
+    margin: 3px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'Quantico', sans-serif;
+
+}
+
+button:hover {
+    background-color: #121832;
+    cursor: pointer;
+    
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
